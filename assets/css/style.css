@@ -10,7 +10,7 @@ body{
      margin:0;
  }
 
- @media (max-width:1600px){
+ @media (max-width:1920px){
     .navStyleLeft{
         display:flex;
         float: left;
