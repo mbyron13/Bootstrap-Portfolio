@@ -5,4 +5,48 @@ body{
     background-image: url("../images/connectwork.png");
  }
 
- 
+ .noPadding{
+     padding:0;
+     margin:0;
+ }
+
+ @media (max-width:1600px){
+    .navStyleLeft{
+        display:flex;
+        float: left;
+        /* float:none; */
+    }
+    .navStyleRight{
+        display:flex;
+        float:right;
+        /* float:none; */
+    }
+        }
+
+    @media (max-width:768px){
+        .navStyleLeft{
+            display:flex;
+            float: left;
+            /* float:none; */
+        }
+        .navStyleRight{
+            display:flex;
+            float:right;
+            /* float:none; */
+        }
+            }
+        
+
+ @media (max-width:640px){
+    .navStyleLeft{
+        justify-content: center;
+        display: flex;
+        float: none;
+    }
+    
+    .navStyleRight{
+        justify-content: center;
+        display: flex;
+        float: none;
+    }
+     }
